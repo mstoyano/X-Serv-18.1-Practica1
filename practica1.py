@@ -115,4 +115,3 @@ if __name__ == "__main__":
         TestWebApp = practica1("localhost", 1234)
     except KeyboardInterrupt:
         print "\n Aplicacion cerrada. Hasta la proxima!"
-        
