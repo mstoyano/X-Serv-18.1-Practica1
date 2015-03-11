@@ -81,7 +81,7 @@ class practica1(webapp.webApp):
                 head = ("<h1><center>Aplicacion web para acortar URLs" +
                         "</center></h1>")
                 HtmlBody = ("<html><body>" + head + "<b>Se ha producido" +
-                            " un error con el formulario. Intentalo de " + 
+                            " un error con el formulario. Intentalo de " +
                             "nuevo!</b></body></html>")
                 return (HttpCode, HtmlBody)
 
@@ -115,3 +115,4 @@ if __name__ == "__main__":
         TestWebApp = practica1("localhost", 1234)
     except KeyboardInterrupt:
         print "\n Aplicacion cerrada. Hasta la proxima!"
+        
